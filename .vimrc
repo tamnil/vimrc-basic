@@ -1,10 +1,12 @@
+" plug install
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"
+"
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-"""""""""""""""""""""""init of Vundle plugins"""""""""""
+"""""""""""""""""""""""init of plugins"""""""""""
 call plug#begin()
-Plug 'gmarik/Vundle.vim'
 " plugin on GitHub repo
 Plug 'tpope/vim-fugitive'
 " All of your Plugs must be added before the following line
@@ -64,10 +66,9 @@ Plug 'ap/vim-css-color'
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
-" see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this 
 " ****************************************************************************
-""""""""""""""""""""""end of vundle plugins"""""""""""""""""""""""""""
+""""""""""""""""""""""end of plugins"""""""""""""""""""""""""""
 call plug#end()            " required
 
 """"""""""""""""""""""plugins pathogen instalation begin""""""""""""""""""""""""""

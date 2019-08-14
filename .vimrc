@@ -21,7 +21,7 @@ Plug 'honza/vim-snippets'
 " Plug 'einars/js-beautify' 
 " Plug 'editorconfig/editorconfig-vim'
 " Plug 'marijnh/tern_for_vim' "javascript tag corrector
-Plug 'Valloric/YouCompleteMe'    "autocmplete plugin
+" Plug 'Valloric/YouCompleteMe'    "autocmplete plugin
 Plug 'mattn/emmet-vim', {'name': 'emmet'}		"emmet plugin	
 " Plug 'pangloss/vim-javascript'		"javascript compatibility plugin
 Plug 'majutsushi/tagbar'				"tagbar navigation

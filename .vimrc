@@ -71,9 +71,6 @@ Plug 'ap/vim-css-color'
 """"""""""""""""""""""end of plugins"""""""""""""""""""""""""""
 call plug#end()            " required
 
-""""""""""""""""""""""plugins pathogen instalation begin""""""""""""""""""""""""""
-execute pathogen#infect()
-
 nmap \e :NERDTreeToggle<CR>
 let NERDTreeShowLineNumbers=1
 " let rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/

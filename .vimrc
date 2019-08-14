@@ -3,7 +3,7 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 """""""""""""""""""""""init of Vundle plugins"""""""""""
-call vundle#begin()
+call plug#begin()
 Plugin 'gmarik/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
@@ -68,7 +68,7 @@ Plugin 'ap/vim-css-color'
 " Put your non-Plugin stuff after this 
 " ****************************************************************************
 """"""""""""""""""""""end of vundle plugins"""""""""""""""""""""""""""
-call vundle#end()            " required
+call plug#end()            " required
 
 """"""""""""""""""""""plugins pathogen instalation begin""""""""""""""""""""""""""
 execute pathogen#infect()

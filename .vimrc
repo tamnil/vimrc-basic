@@ -4,57 +4,57 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 """""""""""""""""""""""init of Vundle plugins"""""""""""
 call plug#begin()
-Plugin 'gmarik/Vundle.vim'
+Plug 'gmarik/Vundle.vim'
 " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
-" All of your Plugins must be added before the following line
+Plug 'tpope/vim-fugitive'
+" All of your Plugs must be added before the following line
 " installing snippets plugin ##############################
-Plugin 'MarcWeber/vim-addon-mw-utils'	"necessary for snippets
-Plugin 'tomtom/tlib_vim'  		"necessary for snippets
+Plug 'MarcWeber/vim-addon-mw-utils'	"necessary for snippets
+Plug 'tomtom/tlib_vim'  		"necessary for snippets
 " Track the engine.
-Plugin 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips'
 " Snippets are separated from the engine. Add this if you want them:
-Plugin 'honza/vim-snippets'
-" Plugin 'maksimr/vim-jsbeautify'
-" Plugin 'einars/js-beautify' 
-" Plugin 'editorconfig/editorconfig-vim'
-" Plugin 'marijnh/tern_for_vim' "javascript tag corrector
-Plugin 'Valloric/YouCompleteMe'    "autocmplete plugin
-Plugin 'mattn/emmet-vim', {'name': 'emmet'}		"emmet plugin	
-" Plugin 'pangloss/vim-javascript'		"javascript compatibility plugin
-Plugin 'majutsushi/tagbar'				"tagbar navigation
-Plugin 'jszakmeister/vim-togglecursor'		"detector de cursor insert mode
-Plugin 'scrooloose/nerdtree' "tree file explorer
-Plugin '2072/PHP-Indenting-for-VIm'
-Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'honza/vim-snippets'
+" Plug 'maksimr/vim-jsbeautify'
+" Plug 'einars/js-beautify' 
+" Plug 'editorconfig/editorconfig-vim'
+" Plug 'marijnh/tern_for_vim' "javascript tag corrector
+Plug 'Valloric/YouCompleteMe'    "autocmplete plugin
+Plug 'mattn/emmet-vim', {'name': 'emmet'}		"emmet plugin	
+" Plug 'pangloss/vim-javascript'		"javascript compatibility plugin
+Plug 'majutsushi/tagbar'				"tagbar navigation
+Plug 'jszakmeister/vim-togglecursor'		"detector de cursor insert mode
+Plug 'scrooloose/nerdtree' "tree file explorer
+Plug '2072/PHP-Indenting-for-VIm'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
 " file explorers
-Plugin 'wincent/Command-T'
-Plugin 'mileszs/ack.vim'
-Plugin 'tyok/nerdtree-ack'  "plugin nerdtree + ack
-" Plugin 'sickill/vim-pasta' " corretor de copy-paste identado
-Plugin 'roblillack/vim-bufferlist'
-" Plugin 'tobyS/skeletons.vim'
-Plugin 'xolox/vim-session'
+Plug 'wincent/Command-T'
+Plug 'mileszs/ack.vim'
+Plug 'tyok/nerdtree-ack'  "plugin nerdtree + ack
+" Plug 'sickill/vim-pasta' " corretor de copy-paste identado
+Plug 'roblillack/vim-bufferlist'
+" Plug 'tobyS/skeletons.vim'
+Plug 'xolox/vim-session'
 " Session manager 	
-Plugin 'xolox/vim-misc'
-Plugin 'vim-scripts/tComment'
-" Plugin 'kien/ctrlp.vim'
-Plugin 'KabbAmine/vCoolor.vim'		" color picker:
-" Plugin 'Lokaltog/vim-easymotion'
-" Plugin 'xolox/vim-notes' 	"vim note 
-" Plugin 'powerline/powerline'
-Plugin 'bling/vim-airline'
+Plug 'xolox/vim-misc'
+Plug 'vim-scripts/tComment'
+" Plug 'kien/ctrlp.vim'
+Plug 'KabbAmine/vCoolor.vim'		" color picker:
+" Plug 'Lokaltog/vim-easymotion'
+" Plug 'xolox/vim-notes' 	"vim note 
+" Plug 'powerline/powerline'
+Plug 'bling/vim-airline'
 
-" Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'Chiel92/vim-autoformat'
-" Plugin 'joonty/vim-phpqa.git'
-" Plugin 'scrooloose/syntastic'    "code syntax review
+" Plug 'cakebaker/scss-syntax.vim'
+Plug 'Chiel92/vim-autoformat'
+" Plug 'joonty/vim-phpqa.git'
+" Plug 'scrooloose/syntastic'    "code syntax review
 
-Plugin  'vim-scripts/highlight.vim'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-repeat'
+Plug  'vim-scripts/highlight.vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
 
-Plugin 'ap/vim-css-color'
+Plug 'ap/vim-css-color'
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
